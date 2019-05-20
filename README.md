@@ -1,6 +1,6 @@
 ## Medicae
 
-# Developers:
+### Developers:
 - Rishabh Mudradi
 - Shashank Venkatramani
 - Pranav Eranki
