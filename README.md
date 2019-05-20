@@ -1,4 +1,4 @@
-## Medicae
+# Medicae
 
 ### Developers:
 - Rishabh Mudradi
