@@ -50,6 +50,7 @@ Our database was also quite finicky for the different data we had.
 - CoreML
 
 ## App render
+<img width="500" alt="appview" src="https://user-images.githubusercontent.com/22282701/57993515-2529d300-7a6e-11e9-8b2c-700d7fd9f8fe.jpg">
 ![medicae_pic](https://user-images.githubusercontent.com/22282701/57993515-2529d300-7a6e-11e9-8b2c-700d7fd9f8fe.jpg)
 
 ## Database
