@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE174D8276A3F362AD6D0A5D /* Pods_SafeMed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C853D48A8B600661D9508659 /* Pods_SafeMed.framework */; };
+		D51D5D0621F528EE00D96196 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D51D5D0521F528EE00D96196 /* GoogleService-Info.plist */; };
+		D51D5D0821F52C9700D96196 /* MedicineStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51D5D0721F52C9700D96196 /* MedicineStatus.swift */; };
+		D51D5D0B21F555F000D96196 /* UIImage+PixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51D5D0921F555F000D96196 /* UIImage+PixelBuffer.swift */; };
+		D51D5D0C21F555F000D96196 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51D5D0A21F555F000D96196 /* ViewController.swift */; };
+		D51D5D1021F555F900D96196 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51D5D0D21F555F800D96196 /* ProductCollectionViewCell.swift */; };
+		D51D5D1121F555F900D96196 /* GravitySliderFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51D5D0E21F555F800D96196 /* GravitySliderFlowLayout.swift */; };
+		D51D5D1221F555F900D96196 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51D5D0F21F555F800D96196 /* UIColor.swift */; };
+		D51D5D1421F5560000D96196 /* CancerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51D5D1321F5560000D96196 /* CancerViewController.swift */; };
+		D51D5D1621F5575E00D96196 /* FinalSkinCancer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D51D5D1521F5575E00D96196 /* FinalSkinCancer.mlmodel */; };
+		D51D5D1821F55CE700D96196 /* QRCodeInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51D5D1721F55CE700D96196 /* QRCodeInformation.swift */; };
+		D5EC7FDD21F4F248003EF227 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EC7FDC21F4F248003EF227 /* AppDelegate.swift */; };
+		D5EC7FE221F4F248003EF227 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5EC7FE021F4F248003EF227 /* Main.storyboard */; };
+		D5EC7FE521F4F248003EF227 /* SafeMed.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5EC7FE321F4F248003EF227 /* SafeMed.xcdatamodeld */; };
+		D5EC7FE721F4F249003EF227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5EC7FE621F4F249003EF227 /* Assets.xcassets */; };
+		D5EC7FEA21F4F249003EF227 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5EC7FE821F4F249003EF227 /* LaunchScreen.storyboard */; };
+		D5EC7FF221F4FC4D003EF227 /* QRCodeCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EC7FF121F4FC4D003EF227 /* QRCodeCapture.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44FA9AE08CE5D4BDCDF5BEBD /* Pods-SafeMed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeMed.release.xcconfig"; path = "Pods/Target Support Files/Pods-SafeMed/Pods-SafeMed.release.xcconfig"; sourceTree = "<group>"; };
+		BBD629D21F0E7949F84D188D /* Pods-SafeMed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeMed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SafeMed/Pods-SafeMed.debug.xcconfig"; sourceTree = "<group>"; };
+		C853D48A8B600661D9508659 /* Pods_SafeMed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafeMed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51D5D0521F528EE00D96196 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D51D5D0721F52C9700D96196 /* MedicineStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineStatus.swift; sourceTree = "<group>"; };
+		D51D5D0921F555F000D96196 /* UIImage+PixelBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+PixelBuffer.swift"; sourceTree = "<group>"; };
+		D51D5D0A21F555F000D96196 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D51D5D0D21F555F800D96196 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		D51D5D0E21F555F800D96196 /* GravitySliderFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GravitySliderFlowLayout.swift; sourceTree = "<group>"; };
+		D51D5D0F21F555F800D96196 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		D51D5D1321F5560000D96196 /* CancerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancerViewController.swift; sourceTree = "<group>"; };
+		D51D5D1521F5575E00D96196 /* FinalSkinCancer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FinalSkinCancer.mlmodel; sourceTree = "<group>"; };
+		D51D5D1721F55CE700D96196 /* QRCodeInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeInformation.swift; sourceTree = "<group>"; };
+		D5EC7FD921F4F248003EF227 /* SafeMed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeMed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5EC7FDC21F4F248003EF227 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5EC7FE121F4F248003EF227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5EC7FE421F4F248003EF227 /* SafeMed.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SafeMed.xcdatamodel; sourceTree = "<group>"; };
+		D5EC7FE621F4F249003EF227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5EC7FE921F4F249003EF227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5EC7FEB21F4F249003EF227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5EC7FF121F4FC4D003EF227 /* QRCodeCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeCapture.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5EC7FD621F4F248003EF227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE174D8276A3F362AD6D0A5D /* Pods_SafeMed.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EFCB97377384475C6584624 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C853D48A8B600661D9508659 /* Pods_SafeMed.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5EC7FD021F4F248003EF227 = {
+			isa = PBXGroup;
+			children = (
+				D5EC7FDB21F4F248003EF227 /* SafeMed */,
+				D5EC7FDA21F4F248003EF227 /* Products */,
+				FD6C6AB2AF5908258152714B /* Pods */,
+				0EFCB97377384475C6584624 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D5EC7FDA21F4F248003EF227 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5EC7FD921F4F248003EF227 /* SafeMed.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5EC7FDB21F4F248003EF227 /* SafeMed */ = {
+			isa = PBXGroup;
+			children = (
+				D51D5D1521F5575E00D96196 /* FinalSkinCancer.mlmodel */,
+				D5EC7FDC21F4F248003EF227 /* AppDelegate.swift */,
+				D5EC7FF121F4FC4D003EF227 /* QRCodeCapture.swift */,
+				D51D5D1721F55CE700D96196 /* QRCodeInformation.swift */,
+				D51D5D0921F555F000D96196 /* UIImage+PixelBuffer.swift */,
+				D51D5D0A21F555F000D96196 /* ViewController.swift */,
+				D5EC7FE021F4F248003EF227 /* Main.storyboard */,
+				D51D5D0721F52C9700D96196 /* MedicineStatus.swift */,
+				D5EC7FE621F4F249003EF227 /* Assets.xcassets */,
+				D51D5D1321F5560000D96196 /* CancerViewController.swift */,
+				D51D5D0F21F555F800D96196 /* UIColor.swift */,
+				D51D5D0D21F555F800D96196 /* ProductCollectionViewCell.swift */,
+				D51D5D0E21F555F800D96196 /* GravitySliderFlowLayout.swift */,
+				D5EC7FE821F4F249003EF227 /* LaunchScreen.storyboard */,
+				D5EC7FEB21F4F249003EF227 /* Info.plist */,
+				D5EC7FE321F4F248003EF227 /* SafeMed.xcdatamodeld */,
+				D51D5D0521F528EE00D96196 /* GoogleService-Info.plist */,
+			);
+			path = SafeMed;
+			sourceTree = "<group>";
+		};
+		FD6C6AB2AF5908258152714B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBD629D21F0E7949F84D188D /* Pods-SafeMed.debug.xcconfig */,
+				44FA9AE08CE5D4BDCDF5BEBD /* Pods-SafeMed.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5EC7FD821F4F248003EF227 /* SafeMed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5EC7FEE21F4F249003EF227 /* Build configuration list for PBXNativeTarget "SafeMed" */;
+			buildPhases = (
+				180C4839B30105E43CF814AB /* [CP] Check Pods Manifest.lock */,
+				D5EC7FD521F4F248003EF227 /* Sources */,
+				D5EC7FD621F4F248003EF227 /* Frameworks */,
+				D5EC7FD721F4F248003EF227 /* Resources */,
+				1713E26B4567309461AB70F4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SafeMed;
+			productName = SafeMed;
+			productReference = D5EC7FD921F4F248003EF227 /* SafeMed.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5EC7FD121F4F248003EF227 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Shashank Venkatramani";
+				TargetAttributes = {
+					D5EC7FD821F4F248003EF227 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D5EC7FD421F4F248003EF227 /* Build configuration list for PBXProject "SafeMed" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5EC7FD021F4F248003EF227;
+			productRefGroup = D5EC7FDA21F4F248003EF227 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5EC7FD821F4F248003EF227 /* SafeMed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5EC7FD721F4F248003EF227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5EC7FEA21F4F249003EF227 /* LaunchScreen.storyboard in Resources */,
+				D51D5D0621F528EE00D96196 /* GoogleService-Info.plist in Resources */,
+				D5EC7FE721F4F249003EF227 /* Assets.xcassets in Resources */,
+				D5EC7FE221F4F248003EF227 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1713E26B4567309461AB70F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SafeMed/Pods-SafeMed-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SafeMed/Pods-SafeMed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		180C4839B30105E43CF814AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SafeMed-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5EC7FD521F4F248003EF227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D51D5D0C21F555F000D96196 /* ViewController.swift in Sources */,
+				D5EC7FF221F4FC4D003EF227 /* QRCodeCapture.swift in Sources */,
+				D51D5D1021F555F900D96196 /* ProductCollectionViewCell.swift in Sources */,
+				D51D5D0821F52C9700D96196 /* MedicineStatus.swift in Sources */,
+				D51D5D1421F5560000D96196 /* CancerViewController.swift in Sources */,
+				D51D5D1221F555F900D96196 /* UIColor.swift in Sources */,
+				D51D5D0B21F555F000D96196 /* UIImage+PixelBuffer.swift in Sources */,
+				D5EC7FDD21F4F248003EF227 /* AppDelegate.swift in Sources */,
+				D5EC7FE521F4F248003EF227 /* SafeMed.xcdatamodeld in Sources */,
+				D51D5D1121F555F900D96196 /* GravitySliderFlowLayout.swift in Sources */,
+				D51D5D1821F55CE700D96196 /* QRCodeInformation.swift in Sources */,
+				D51D5D1621F5575E00D96196 /* FinalSkinCancer.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D5EC7FE021F4F248003EF227 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5EC7FE121F4F248003EF227 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5EC7FE821F4F249003EF227 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5EC7FE921F4F249003EF227 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5EC7FEC21F4F249003EF227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5EC7FED21F4F249003EF227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5EC7FEF21F4F249003EF227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBD629D21F0E7949F84D188D /* Pods-SafeMed.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4R484PGFUQ;
+				INFOPLIST_FILE = SafeMed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cvenkatramani.SafeMed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5EC7FF021F4F249003EF227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44FA9AE08CE5D4BDCDF5BEBD /* Pods-SafeMed.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4R484PGFUQ;
+				INFOPLIST_FILE = SafeMed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cvenkatramani.SafeMed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5EC7FD421F4F248003EF227 /* Build configuration list for PBXProject "SafeMed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5EC7FEC21F4F249003EF227 /* Debug */,
+				D5EC7FED21F4F249003EF227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5EC7FEE21F4F249003EF227 /* Build configuration list for PBXNativeTarget "SafeMed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5EC7FEF21F4F249003EF227 /* Debug */,
+				D5EC7FF021F4F249003EF227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D5EC7FE321F4F248003EF227 /* SafeMed.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D5EC7FE421F4F248003EF227 /* SafeMed.xcdatamodel */,
+			);
+			currentVersion = D5EC7FE421F4F248003EF227 /* SafeMed.xcdatamodel */;
+			path = SafeMed.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D5EC7FD121F4F248003EF227 /* Project object */;
+}
