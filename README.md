@@ -50,7 +50,7 @@ Our database was also quite finicky for the different data we had.
 - CoreML
 
 ## App render
-![Uploading ce1d0582-4309-4613-93c9-a62cae3d9bd3.jpg…]()
+![medicae_pic](https://user-images.githubusercontent.com/22282701/57993515-2529d300-7a6e-11e9-8b2c-700d7fd9f8fe.jpg)
 
 ## Database
 ![](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/795/290/datas/gallery.jpg)
