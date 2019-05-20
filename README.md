@@ -1,3 +1,11 @@
+## Developers
+- Rishabh Mudradi
+- Shashank Venkatramani
+- Pranav Eranki
+- Aryan Kaul
+
+### App Breakdown
+
 ## Inspiration
 In September 2013, 44 children in Paraguay were admitted to hospital with breathing difficulties. It turned out the children had all been given a locally made cough medicine. Investigators went to the factory and found import records for the dextromethorphan it contained. When they checked the World Health Organization’s database of substandard and falsified medical products, they found that this came from the same batch that had caused the deaths in Pakistan. In this situation, a fake drugs detector and authenticator would have helped extensively to save lives, money, and time.
 
@@ -58,8 +66,3 @@ Our database was also quite finicky for the different data we had.
 ## QR codes
 ![](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/795/288/datas/gallery.jpg)
 
-## Developers
-- Rishabh Mudradi
-- Shashank Venkatramani
-- Pranav Eranki
-- Aryan Kaul
