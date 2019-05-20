@@ -57,3 +57,9 @@ Our database was also quite finicky for the different data we had.
 
 ## QR codes
 ![](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/795/288/datas/gallery.jpg)
+
+## Developers
+- Rishabh Mudradi
+- Shashank Venkatramani
+- Pranav Eranki
+- Aryan Kaul
