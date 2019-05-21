@@ -61,7 +61,8 @@ Our database was also quite finicky for the different data we had.
 <img width="500" heigth="200" alt="appview" src="https://user-images.githubusercontent.com/22282701/57993515-2529d300-7a6e-11e9-8b2c-700d7fd9f8fe.jpg">
 
 ## Database
-<img alt="appview" src="https://challengepost-s3-challengepost.netdna ssl.com/photos/production/software_photos/000/795/290/datas/gallery.jpg">
+![](https://challengepost-s3-challengepost.netdna ssl.com/photos/production/software_photos/000/795/290/datas/gallery.jpg)
+
 
 ## QR codes
 ![](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/795/288/datas/gallery.jpg)
